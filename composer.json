@@ -1,0 +1,19 @@
+{
+    "name": "edenilson.borba/php-pro",
+    "description": "Curso php",
+    "authors": [
+        {
+            "name": "Edenilson Borba",
+            "email": "canto48@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "app/router/router.php"
+        ],
+        "psr-4": {
+            "app\\":"app"
+        }
+    }
+}
